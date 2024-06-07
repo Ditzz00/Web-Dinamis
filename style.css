@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(169, 232, 240);
+}
+
+#bg-login {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* = = = = = = = = = halaman login = = = = = = = = = =*/
+
+.box-login {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.box-login h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #000000;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.box-login input[type="text"],
+.box-login input[type="password"],
+.box-login input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.box-login input[type="submit"] {
+  background-color: #270564;
+  color: #fff;
+  cursor: pointer;
+}
+
+.box-login input[type="submit"]:hover {
+  background-color: #1a043e;
+}
+
+/* = = = = = = = = = Halaman login sampai sini = = = = = = = = = = = */
+
+.input-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.login-btn {
+  padding: 8px 15px;
+  background-color: #d30420;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.edit_btn {
+  padding: 8px 15px;
+  width: 70px;
+  text-align: center;
+  background-color: #319171;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete_btn {
+  padding: 8px 15px;
+  background-color: #ce9e01;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  width: 80px;
+}
+
+header {
+  background-color: #270564;
+  color: white;
+}
+
+header h1 {
+  float: left;
+  padding: 5px 0px;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  padding: 20px 0px 20px 15px;
+  display: inline-block;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.section {
+  padding: 25px 0;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 10px 0px 25px 0px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table tr {
+  height: 30px;
+}
+
+.table tr td {
+  padding: 5px 10px;
+}
+
+.site-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #270564;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.site-footer small {
+  display: block;
+}
+
+.icon {
+  width: 13px;
+  height: 15px;
+}
