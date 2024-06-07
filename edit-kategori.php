@@ -70,9 +70,9 @@
     </div>
   </div>
 
-  <footer style="padding : 25px 0px;">
+  <footer class="site-footer">
     <div class="container">
-      <small>Copyright &copy; 2022 - Toko Pak Hadi </small>
+      <small>Copyright &copy; 2024 - Yogi Aditya </small>
     </div>
   </footer>
 </body>
